@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBBDB8B926EFC22700701C1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBDB8B826EFC22700701C1E /* AppDelegate.swift */; };
+		EBBDB8BB26EFC22700701C1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBDB8BA26EFC22700701C1E /* SceneDelegate.swift */; };
+		EBBDB8BD26EFC22700701C1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBDB8BC26EFC22700701C1E /* ViewController.swift */; };
+		EBBDB8C026EFC22700701C1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBBDB8BE26EFC22700701C1E /* Main.storyboard */; };
+		EBBDB8C226EFC22800701C1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBBDB8C126EFC22800701C1E /* Assets.xcassets */; };
+		EBBDB8C526EFC22800701C1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBBDB8C326EFC22800701C1E /* LaunchScreen.storyboard */; };
+		EBBDB8D026EFC22800701C1E /* VipSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBDB8CF26EFC22800701C1E /* VipSampleTests.swift */; };
+		EBBDB8DB26EFC22800701C1E /* VipSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBDB8DA26EFC22800701C1E /* VipSampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBBDB8CC26EFC22800701C1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBBDB8AD26EFC22600701C1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBBDB8B426EFC22600701C1E;
+			remoteInfo = VipSample;
+		};
+		EBBDB8D726EFC22800701C1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBBDB8AD26EFC22600701C1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBBDB8B426EFC22600701C1E;
+			remoteInfo = VipSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBBDB8B526EFC22600701C1E /* VipSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VipSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBBDB8B826EFC22700701C1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBBDB8BA26EFC22700701C1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EBBDB8BC26EFC22700701C1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBBDB8BF26EFC22700701C1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBBDB8C126EFC22800701C1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBBDB8C426EFC22800701C1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBBDB8C626EFC22800701C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBBDB8CB26EFC22800701C1E /* VipSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VipSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBBDB8CF26EFC22800701C1E /* VipSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipSampleTests.swift; sourceTree = "<group>"; };
+		EBBDB8D126EFC22800701C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBBDB8D626EFC22800701C1E /* VipSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VipSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBBDB8DA26EFC22800701C1E /* VipSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipSampleUITests.swift; sourceTree = "<group>"; };
+		EBBDB8DC26EFC22800701C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBBDB8B226EFC22600701C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBDB8C826EFC22800701C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBDB8D326EFC22800701C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBBDB8AC26EFC22600701C1E = {
+			isa = PBXGroup;
+			children = (
+				EBBDB8B726EFC22600701C1E /* VipSample */,
+				EBBDB8CE26EFC22800701C1E /* VipSampleTests */,
+				EBBDB8D926EFC22800701C1E /* VipSampleUITests */,
+				EBBDB8B626EFC22600701C1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBBDB8B626EFC22600701C1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBBDB8B526EFC22600701C1E /* VipSample.app */,
+				EBBDB8CB26EFC22800701C1E /* VipSampleTests.xctest */,
+				EBBDB8D626EFC22800701C1E /* VipSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBBDB8B726EFC22600701C1E /* VipSample */ = {
+			isa = PBXGroup;
+			children = (
+				EBBDB8B826EFC22700701C1E /* AppDelegate.swift */,
+				EBBDB8BA26EFC22700701C1E /* SceneDelegate.swift */,
+				EBBDB8BC26EFC22700701C1E /* ViewController.swift */,
+				EBBDB8BE26EFC22700701C1E /* Main.storyboard */,
+				EBBDB8C126EFC22800701C1E /* Assets.xcassets */,
+				EBBDB8C326EFC22800701C1E /* LaunchScreen.storyboard */,
+				EBBDB8C626EFC22800701C1E /* Info.plist */,
+			);
+			path = VipSample;
+			sourceTree = "<group>";
+		};
+		EBBDB8CE26EFC22800701C1E /* VipSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBBDB8CF26EFC22800701C1E /* VipSampleTests.swift */,
+				EBBDB8D126EFC22800701C1E /* Info.plist */,
+			);
+			path = VipSampleTests;
+			sourceTree = "<group>";
+		};
+		EBBDB8D926EFC22800701C1E /* VipSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBBDB8DA26EFC22800701C1E /* VipSampleUITests.swift */,
+				EBBDB8DC26EFC22800701C1E /* Info.plist */,
+			);
+			path = VipSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBBDB8B426EFC22600701C1E /* VipSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBBDB8DF26EFC22800701C1E /* Build configuration list for PBXNativeTarget "VipSample" */;
+			buildPhases = (
+				EBBDB8B126EFC22600701C1E /* Sources */,
+				EBBDB8B226EFC22600701C1E /* Frameworks */,
+				EBBDB8B326EFC22600701C1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VipSample;
+			productName = VipSample;
+			productReference = EBBDB8B526EFC22600701C1E /* VipSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBBDB8CA26EFC22800701C1E /* VipSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBBDB8E226EFC22800701C1E /* Build configuration list for PBXNativeTarget "VipSampleTests" */;
+			buildPhases = (
+				EBBDB8C726EFC22800701C1E /* Sources */,
+				EBBDB8C826EFC22800701C1E /* Frameworks */,
+				EBBDB8C926EFC22800701C1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBBDB8CD26EFC22800701C1E /* PBXTargetDependency */,
+			);
+			name = VipSampleTests;
+			productName = VipSampleTests;
+			productReference = EBBDB8CB26EFC22800701C1E /* VipSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBBDB8D526EFC22800701C1E /* VipSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBBDB8E526EFC22800701C1E /* Build configuration list for PBXNativeTarget "VipSampleUITests" */;
+			buildPhases = (
+				EBBDB8D226EFC22800701C1E /* Sources */,
+				EBBDB8D326EFC22800701C1E /* Frameworks */,
+				EBBDB8D426EFC22800701C1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBBDB8D826EFC22800701C1E /* PBXTargetDependency */,
+			);
+			name = VipSampleUITests;
+			productName = VipSampleUITests;
+			productReference = EBBDB8D626EFC22800701C1E /* VipSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBBDB8AD26EFC22600701C1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EBBDB8B426EFC22600701C1E = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					EBBDB8CA26EFC22800701C1E = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EBBDB8B426EFC22600701C1E;
+					};
+					EBBDB8D526EFC22800701C1E = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EBBDB8B426EFC22600701C1E;
+					};
+				};
+			};
+			buildConfigurationList = EBBDB8B026EFC22600701C1E /* Build configuration list for PBXProject "VipSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBBDB8AC26EFC22600701C1E;
+			productRefGroup = EBBDB8B626EFC22600701C1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBBDB8B426EFC22600701C1E /* VipSample */,
+				EBBDB8CA26EFC22800701C1E /* VipSampleTests */,
+				EBBDB8D526EFC22800701C1E /* VipSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBBDB8B326EFC22600701C1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBDB8C526EFC22800701C1E /* LaunchScreen.storyboard in Resources */,
+				EBBDB8C226EFC22800701C1E /* Assets.xcassets in Resources */,
+				EBBDB8C026EFC22700701C1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBDB8C926EFC22800701C1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBDB8D426EFC22800701C1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBBDB8B126EFC22600701C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBDB8BD26EFC22700701C1E /* ViewController.swift in Sources */,
+				EBBDB8B926EFC22700701C1E /* AppDelegate.swift in Sources */,
+				EBBDB8BB26EFC22700701C1E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBDB8C726EFC22800701C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBDB8D026EFC22800701C1E /* VipSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBDB8D226EFC22800701C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBDB8DB26EFC22800701C1E /* VipSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBBDB8CD26EFC22800701C1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBBDB8B426EFC22600701C1E /* VipSample */;
+			targetProxy = EBBDB8CC26EFC22800701C1E /* PBXContainerItemProxy */;
+		};
+		EBBDB8D826EFC22800701C1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBBDB8B426EFC22600701C1E /* VipSample */;
+			targetProxy = EBBDB8D726EFC22800701C1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBBDB8BE26EFC22700701C1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBBDB8BF26EFC22700701C1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBBDB8C326EFC22800701C1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBBDB8C426EFC22800701C1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBBDB8DD26EFC22800701C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBBDB8DE26EFC22800701C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBBDB8E026EFC22800701C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VipSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nadolny.mieter.VipSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBBDB8E126EFC22800701C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VipSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nadolny.mieter.VipSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EBBDB8E326EFC22800701C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VipSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nadolny.mieter.VipSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VipSample.app/VipSample";
+			};
+			name = Debug;
+		};
+		EBBDB8E426EFC22800701C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VipSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nadolny.mieter.VipSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VipSample.app/VipSample";
+			};
+			name = Release;
+		};
+		EBBDB8E626EFC22800701C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VipSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nadolny.mieter.VipSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VipSample;
+			};
+			name = Debug;
+		};
+		EBBDB8E726EFC22800701C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VipSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nadolny.mieter.VipSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VipSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBBDB8B026EFC22600701C1E /* Build configuration list for PBXProject "VipSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBBDB8DD26EFC22800701C1E /* Debug */,
+				EBBDB8DE26EFC22800701C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBBDB8DF26EFC22800701C1E /* Build configuration list for PBXNativeTarget "VipSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBBDB8E026EFC22800701C1E /* Debug */,
+				EBBDB8E126EFC22800701C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBBDB8E226EFC22800701C1E /* Build configuration list for PBXNativeTarget "VipSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBBDB8E326EFC22800701C1E /* Debug */,
+				EBBDB8E426EFC22800701C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBBDB8E526EFC22800701C1E /* Build configuration list for PBXNativeTarget "VipSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBBDB8E626EFC22800701C1E /* Debug */,
+				EBBDB8E726EFC22800701C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBBDB8AD26EFC22600701C1E /* Project object */;
+}
